@@ -46,7 +46,7 @@ public class FolderObserverTest {
 		Session session = Session.getDefaultInstance(props);
 		
 		MailConfiguration observedAccountConfiguration = new MailConfiguration("module2@modttx.org", "password", "localhost", 3025, false, "localhost", 3143, false);
-		FolderObserver folderObserver = new FolderObserver(session, observedAccountConfiguration, "Gesendete Objekte", "excon@modttx.org");
+		FolderObserver folderObserver = new FolderObserver(session, observedAccountConfiguration, "Gesendete Objekte", "excon@modttx.org", new MailConfiguration());
 		
 		Message message = GreenMailUtil.createTextEmail("module1@modttx.org", "module2@modttx.org", "Subject", "Hello World!", ServerSetupTest.SMTP_IMAP[0]);
 		

@@ -36,7 +36,7 @@ public class MailForwarderMain {
 			Session session = Session.getDefaultInstance(props);
 			
 			properties.getObservedAccountsConfig().forEach( mailConfig -> {
-				Thread t = new Thread(new FolderObserver(session, mailConfig, "Gesendete Objekte", properties.getReceiverEmail()));
+				Thread t = new Thread(new FolderObserver(session, mailConfig, "Gesendete Objekte", properties.getReceiverEmail(), properties.getMailForwarderConfig()));
 				t.setDaemon(true);
 				t.start();
 			});
