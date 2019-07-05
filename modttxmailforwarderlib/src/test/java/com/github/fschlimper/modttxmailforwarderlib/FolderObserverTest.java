@@ -1,4 +1,4 @@
-package com.github.fschlimper.modttxmailforwarder;
+package com.github.fschlimper.modttxmailforwarderlib;
 
 import static org.junit.Assert.assertEquals;
 
@@ -13,6 +13,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.github.fschlimper.modttxmailforwarderlib.FolderObserver;
+import com.github.fschlimper.modttxmailforwarderlib.MailConfiguration;
 import com.icegreen.greenmail.user.GreenMailUser;
 import com.icegreen.greenmail.util.GreenMail;
 import com.icegreen.greenmail.util.GreenMailUtil;

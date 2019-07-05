@@ -1,4 +1,4 @@
-package com.github.fschlimper.modttxmailforwarder;
+package com.github.fschlimper.modttxmailforwarderlib;
 
 import java.io.IOException;
 import java.io.InputStream;

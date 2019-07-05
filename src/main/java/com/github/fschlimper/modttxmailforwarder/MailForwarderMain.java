@@ -11,6 +11,9 @@ import javax.mail.Session;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.github.fschlimper.modttxmailforwarderlib.FolderObserver;
+import com.github.fschlimper.modttxmailforwarderlib.MailForwarderProperties;
+
 public class MailForwarderMain {
 
 	private static final Logger logger = LogManager.getLogger();

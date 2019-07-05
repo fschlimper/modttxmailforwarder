@@ -1,4 +1,4 @@
-package com.github.fschlimper.modttxmailforwarder;
+package com.github.fschlimper.modttxmailforwarderlib;
 
 public class MailConfiguration {
 

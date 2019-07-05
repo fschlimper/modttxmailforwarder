@@ -1,4 +1,4 @@
-package com.github.fschlimper.modttxmailforwarder;
+package com.github.fschlimper.modttxmailforwarderlib;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -9,8 +9,8 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.github.fschlimper.modttxmailforwarder.MailConfiguration;
-import com.github.fschlimper.modttxmailforwarder.MailForwarderProperties;
+import com.github.fschlimper.modttxmailforwarderlib.MailConfiguration;
+import com.github.fschlimper.modttxmailforwarderlib.MailForwarderProperties;
 
 public class MailForwarderPropertiesTest {
 

@@ -1,4 +1,4 @@
-package com.github.fschlimper.modttxmailforwarder;
+package com.github.fschlimper.modttxmailforwarderlib;
 
 import javax.mail.Address;
 import javax.mail.Folder;
