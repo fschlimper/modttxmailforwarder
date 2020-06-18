@@ -1,0 +1,32 @@
+{
+    "fromAddress": "mailforwarder@example.com",
+    "forwardAddress": "excon@example.com",
+    "simulate": false,
+    "smtpAccount": {
+        "host": "stmp.host",
+        "port": "587",
+        "useSSL": true,
+        "user": "excon@example.com",
+        "password": ""
+    },
+    "mailAccounts": [
+        {
+            "host": "imap.host",
+            "port": "",
+            "useSSL": true,
+            "user": "module1@example.com",
+            "password": "",
+            "folder": "\"Gesendete Objekte\"",
+            "timestamp": "01-Jan-1900 00:00:00"
+        },
+        {
+            "host": "imap.host",
+            "port": "",
+            "useSSL": true,
+            "user": "module2@example.com",
+            "password": "",
+            "folder": "\"Gesendete Objekte\"",
+            "timestamp": "01-Jan-1900 00:00:00"
+        }
+    ]
+}
